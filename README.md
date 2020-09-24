@@ -4,3 +4,4 @@
 # It even ranks the sentences in the summary.
 
 # Currently, BERT Classifier is used to classify sentences into action and non-action and later TF-IDF is used rank the summary sentences.
+# The design will being updated and this is ongoing project
