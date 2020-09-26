@@ -268,7 +268,7 @@ def train_model(train_features, test_features):
     num_train_steps = int(len(train_features) / BATCH_SIZE * NUM_TRAIN_EPOCHS)
     num_warmup_steps = int(num_train_steps * WARMUP_PROPORTION)
 
-    print(num_train_steps)
+    #print(num_train_steps)
 
     # Specify outpit directory and number of checkpoint steps to save
     run_config = tf.estimator.RunConfig(
