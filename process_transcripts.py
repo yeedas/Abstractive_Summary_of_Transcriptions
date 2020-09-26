@@ -45,12 +45,12 @@ def init_params():
     train = pd.read_csv(data_path)
     labels = []
 
-    print (train.head())
-    print (train.Label.value_counts())
+    #print (train.head())
+    #print (train.Label.value_counts())
 
     test = pd.read_csv(test_path)
-    print (test.head())
-    print(len(label_list))
+    #print (test.head())
+    #print(len(label_list))
 
     return train, test
 
